@@ -3,3 +3,55 @@ header {
     flex-direction: row;
     justify-content: space-between; 
 }
+html {
+    background-color: gray;
+}
+.mots {
+    display :flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+.mots p {
+    padding: 0 35px; 
+    margin: 40px;
+    color :white; 
+    font-size : 30px;
+    font-family: sans-serif;
+}
+.mots img {
+    padding : 35px; 
+    padding-bottom: 0;
+    z-index: 1;
+}
+.img1 {
+    padding-top : 35px;
+}
+form {
+    display: none;
+    background-color: black;
+    border-style: solid;
+    border-width: 8px; 
+    border-top-width: 20px;
+    border-radius: 15px;
+}
+form label {
+    color : white;
+}
+.imgIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgIcon:hover form {
+    position: fixed;
+    right: 0; 
+    top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 0;
+}
+input {
+    border-radius: 15px;
+}
